@@ -4,10 +4,18 @@ namespace TddChessEngineLib
 {
     public class Elephant
     {
-        public string CurentPosition { get; private set;}
-        public Elephant(string initialPosition)
+        public string CurrentPosition {get;set;}
+
+        // тут модифицировать так чтобы тесты проходили
+        public Elephant(string position)
         {
-            CurentPosition = initialPosition;
+            
+        }
+
+        // для этого метода написать тест
+        public void Turn(string newPosition)
+        {
+
         }
     }
 }
